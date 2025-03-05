@@ -1,0 +1,5 @@
+path: D:\V\btl_ttnt\dataset\dataset.yaml
+train: images
+val: images
+names:
+  0: hand
