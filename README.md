@@ -30,15 +30,6 @@ Dự án này sử dụng MediaPipe kết hợp với mô hình học sâu để
 </p>
 
 ---
-## 🛠️ CÔNG NGHỆ SỬ DỤNG
-
-<div align="center">
-
-<p align="center">
-  <img src="" alt="System Architecture" width="800"/>
-</p>
-</div>
----
 ##  Yêu cầu hệ thống
 
 -Có thể sử dụng Visual nếu máy đủ khoẻ 
