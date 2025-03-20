@@ -1,41 +1,52 @@
-<h1 align="center">NHẬN DIỆN KÝ TỰ TAY SỬ DỤNG KỸ THUẬT HỌC SÂU VÀ MEDIAPIPE</h1>
 
-<div align="center">
+# 🖐 NHẬN DIỆN & ĐẾM SỐ NGÓN TAY
 
-</p>
-
-![Made by AIoTLab](https://github.com/nguyenhongson05/Nhan-dien-dem-so-ngon-tay/blob/main/dnu.png?raw=true)
-</div>
-## 📌 Giới thiệu  
-Dự án này sử dụng MediaPipe kết hợp với mô hình học sâu để nhận diện ký tự viết tay theo thời gian thực. MediaPipe Hands giúp phát hiện bàn tay và trích xuất đặc trưng, sau đó mô hình học sâu sẽ phân loại các cử chỉ tay thành các ký tự chữ cái hoặc số.
-
----  
-## 🎯 Tính năng  
-- ✋ **Phát hiện bàn tay và nhận diện cử chỉ** trong hình ảnh hoặc video.
-- 🔤 **Nhận dạng ký tự viết tay** dựa trên dữ liệu huấn luyện.
-- ⚡ **Hỗ trợ GPU** để tối ưu hiệu suất nhận diện.
-- 🔗 **Tích hợp dễ dàng** với các ứng dụng xử lý ảnh và AI khác.
-
---- 
-## 🛠️ Cài đặt  
-### 1️⃣ Yêu cầu hệ thống  
-- 🐍 **Python** >= 3.8  
-- 🎮 **CUDA** (nếu chạy trên GPU)  
-- 📷 **OpenCV**  
-- 🤖 **MediaPipe**
----
-## 🏗️ HỆ THỐNG
-<p align="center">
-  <img src="" alt="System Architecture" width="800"/>
-</p>
+![dainam](https://github.com/user-attachments/assets/bc536edc-1836-49d0-b8c3-1f139d34276f)
 
 ---
-##  Yêu cầu hệ thống
 
--Có thể sử dụng Visual nếu máy đủ khoẻ 
-<br>
-or
-<br>
--Sử dụng <a href="https://colab.google/" target="_blank">Colab</a> cho nhanh
+## 📌 GIỚI THIỆU DỰ ÁN
+Dự án này sử dụng **YOLO** để nhận diện và đếm số ngón tay trong hình ảnh hoặc video theo thời gian thực.  
+Mục tiêu chính:
+- Phát hiện bàn tay và đếm số ngón tay đang giơ lên.
+- Ứng dụng trong giáo dục, giao tiếp phi ngôn ngữ và hỗ trợ người khiếm thính.
+
 ---
-## 🚀 Hướng dẫn cài đặt và chạy
+
+## 👥 THÀNH VIÊN NHÓM
+| Mã sinh viên   | Họ và tên                 | Phân chia công việc          |
+|---------------|---------------------------|------------------------------|
+| 1771020605    | Nguyễn Hồng Sơn            | Xây dựng mô hình YOLO, xử lý dữ liệu |
+| 1771020517    | Nguyễn Trọng Đức Nguyên    | Viết thuật toán đếm số ngón tay |
+| 1771020299    | Đinh Văn Hoàng             | Thiết kế giao diện, tối ưu hiệu suất |
+
+---
+
+## 🛠️ CÔNG NGHỆ SỬ DỤNG
+- **Ngôn ngữ**: Python
+- **Thư viện**: OpenCV, YOLOv5, NumPy, TensorFlow
+- **Công cụ hỗ trợ**: Google Colab, Jupyter Notebook
+
+---
+🎯 Tính năng
+- ✋ Phát hiện bàn tay và nhận diện cử chỉ trong hình ảnh hoặc video.
+- 🔤 Nhận dạng ký tự viết tay dựa trên dữ liệu huấn luyện.
+- ⚡ Hỗ trợ GPU để tối ưu hiệu suất nhận diện.
+- 🔗 Tích hợp dễ dàng với các ứng dụng xử lý ảnh và AI khác.
+---
+## Các bước thực hiện
+- 1️⃣Thu thập dữ liệu
+  - Thu thập dữ liệu từ camera mở trực tiếp hoặc từ ảnh có sẵn
+- 2️⃣Gán nhãn dữ liệu
+  -  Sử dụng công cụ như LabelImg để gán nhãn vị trí bàn tay/ngón tay.
+- 3️⃣Huấn luyện mô hình
+  - Chỉnh sửa các file cấu hình (.yaml) cho dữ liệu và mô hình.
+  - Sử dụng train.py để huấn luyện với tập dữ liệu.
+  - Sau khi huấn luyện, mô hình tạo ra file best.pt (trọng số tối ưu nhất).
+- 4️⃣Chạy mô hình
+  - Dùng mô hình đã huấn luyện để nhận diện.
+- 5️⃣Xem kết quả
+  - Khi chạy chương trình có thể nhận diện trực tiếp trên camera hoặc có thể lưu ảnh vào thư mục.
+![captured_5](https://github.com/user-attachments/assets/f6207e23-bc62-48ec-801a-5891631bdedc)
+
+© 2025 NHÓM 3, NHẬN DIỆN KÝ TỰ TAY SỬ DỤNG KỸ THUẬT HỌC SÂU YOLO VÀ MEDIAPIPE, TRÍ TUỆ NHÂN TẠO, TRƯỜNG ĐẠI HỌC Đại NAM
