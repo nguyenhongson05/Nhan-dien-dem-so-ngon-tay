@@ -4,7 +4,7 @@
 
 </p>
 
-![Made by AIoTLab]()
+![Made by AIoTLab](https://github.com/nguyenhongson05/Nhan-dien-dem-so-ngon-tay/blob/main/dnu.png?raw=true)
 </div>
 ## 📌 Giới thiệu  
 Dự án này sử dụng MediaPipe kết hợp với mô hình học sâu để nhận diện ký tự viết tay theo thời gian thực. MediaPipe Hands giúp phát hiện bàn tay và trích xuất đặc trưng, sau đó mô hình học sâu sẽ phân loại các cử chỉ tay thành các ký tự chữ cái hoặc số.
