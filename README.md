@@ -26,7 +26,7 @@ Dự án này sử dụng MediaPipe kết hợp với mô hình học sâu để
 ---
 ## 🏗️ HỆ THỐNG
 <p align="center">
-  <img src="mohinh.png" alt="System Architecture" width="800"/>
+  <img src="" alt="System Architecture" width="800"/>
 </p>
 
 ---
